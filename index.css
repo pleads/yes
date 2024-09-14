@@ -234,10 +234,14 @@ ul{
     height: 40px;
     width: 40px;
     display: inline-block;
-    background: #0546ec;
+    background: #0649f3;
     text-align: center;
-    margin: 0px 10px 10px 0px;
+    margin: 2px;
     position: relative;
+    padding: 10px 5px;
     border-radius: 50%;
-
+}
+.footer-col .social-links a :hover{
+    background: none;
+    color: #000;
 }
