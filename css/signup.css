@@ -14,27 +14,38 @@ body{
     height: 100vh;
 }
 .logo img{
-    width: 50px;
+    width: 70px;
     border: none;
+    left: 20px;
+    padding: 10px;
+    margin: auto;
+    bottom: 10px;
 }
-
 .login{
     position: relative;
     justify-content: space-between;
     background: transparent;
-    border: 1px solid #fbf9f9;
+    border: 1px solid #f3e8e8;
     margin: auto;
-    top: 80px;
+    top: 6px;
     text-align: center;
     width: 500px;
     height: 600px;
     padding: 20px 5px;
+    border-radius: 10px;
+    
+}
+h1{
+    text-align: center;
+    color: #1f36cb;
+    top: 50px;
+    font-size: 3em;
     
 }
 h2{
     text-align: center;
     color: #ffff;
-    top: 50px;
+    top: 70px;
     font-size: 2em;
 }
 .input-box{
@@ -49,33 +60,32 @@ h2{
 .input-box label{
     position: absolute;
     left: 10px;
-    top: 50%;
+    top: 65%;
+    pointer-events: none;
     transform: translateY(-50%);
     font-size: 1em;
-    pointer-events: none;
     transition: .5s;
 }
-.input-box input:focus~label,
-.input-box input:valid~label{
-    top: -3px;
+.input-box input:focus~label,.input-box input:valid~label{
+    top: -9px
 }
 .input-box input{
     background: transparent;
-    height: 50px;
     width: 100%;
     border: none;
     outline: none;
     font-size: 1em;
-    color: #ffff;
     top: 20px;
     padding: 0 36px 0 5px;
+
 }
 .input-box .icon{
-    color: #ffff;
-    font-size: 1.2em;
+    color: #171616;
+    font-size: 1.0em;
     right: 8px;
     position: absolute;
-    line-height: 60px;
+    line-height: -3px;
+    
 
 }
 .remember{
@@ -83,75 +93,59 @@ h2{
     display: flex;
     color: #ffff;
     margin: -10px 0 15px;
-    top: 20px;
+    top: 30px;
     font-size: .9em;
-   
-
-
 }
-.remember label input {
-    margin-right: 5px;
-
-}
-.remember a{
-    color: #ffff;
-    text-decoration: none;
-    margin-right:5px;
-}
-.remember a:hover{
-    text-decoration: underline;
+.remember label input{
+    margin-left: 5px;
 }
 .button{
+    top: 20px;
+    position: relative;
+    justify-content: space-between;
+    background: #ffff;
+    width: 30%;
+    border-radius: 5px;
+    margin: auto;
+    padding: 15px;
+    font-size: 20px;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+   -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;    
+    -webkit-transition-property: box-shadow, transform;
+    transition-property: box-shadow, transform;
+    
 
-        top: 25px;
-        position: relative;
-        justify-content: space-between;
-        background: #ffff;
-        width: 45%;
-        border-radius: 10px;
-        text-align: center;
-        padding: 15px;
-        font-size: 20px;
-        margin: auto;
-        cursor: pointer;
-        box-shadow: 0 0 10px rgba(0,0,0,0.5);
-        -webkit-transition-duration: 0.3s;
-        transition-duration: 0.3s;
-        -webkit-transition-property: box-shadow, transform;
-        transition-property: box-shadow, transform;
-    
-    
-    
 }
 .button a{
     text-decoration: none;
-    color: #0b0b0b;
+    color: #222;
 
 }
 .button:hover,.button-2 :focus,.button :after{
+    color: #0000ff;
     box-shadow: 0 0 20px rgba(0,0,0,0,0.5);
     -webkit-transform: scale(1.1);
     transform: scale(1.1);
-
-
-    
 }
-.no-account{
-    font-size: .9em;
-    text-align: center;
-    margin: 20px 0 10px;
-    top: 53px;
+.no-account {
+    color: #e6e6ec;
+    top: 40px;
     position: relative;
 
 }
 .no-account a{
     text-decoration: none;
-    color: #f5f6f8;
-    top:10px;
-    position: relative;
+    color: #fff9f9;
+    top: 40px;
+    padding: 5px;
+}
+.no-account a:hover{
+    color: #0000ff;
 }
 .social{
-    top: 90px;
+    top: 70px;
     position: relative;
     color: #ffff;
 
@@ -159,7 +153,7 @@ h2{
 }
 .social .social-links a{
     color: #f5f6f8;
-    margin: 15px 15px;
+    margin: 10px 10px;
     -webkit-transition-duration: 0.3s;
     transition-duration: 0.3s;
     -webkit-transition-property: box-shadow, transform;
