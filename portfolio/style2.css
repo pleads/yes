@@ -1,0 +1,23 @@
+
+  body{
+    background: hsla(0, 12%, 89%, 0.671);
+    color: #fff;
+ }
+            
+ h1{
+    font-size: 30px; 
+    color: red; 
+    margin-top: 50px; 
+    text-align: center;
+
+ }
+p{
+    font-size: 20px;
+    color: rgb(24, 13, 13);
+    text-align: center;
+}
+.note{
+    border: 1px solid #0000ff;
+    color: #fc3;
+    font: 24px;
+}

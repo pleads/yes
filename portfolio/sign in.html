@@ -1,0 +1,98 @@
+<!DOCTYPE HTML>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="login.css" type="text/css" media="all">
+        <meta name="viewport" content="width=device-width", initial-scale="1.0">
+        <script src="https://kit.fontawesome.com/7e1bc41dc5.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div class="container">
+            <header class="header">
+                <a href="welcome1.html"><div class="logo"><img src="logo1.PNG" alt="" id="logo"></div></a>
+
+                <div class="nav-but">
+                    <a href="Home.html" class="#">Home</a></li>
+                    <a href="#">About</a></li>
+                    <a href="#">Gallery</a></li>
+                    <a href="#">Services</a></li>
+                    <a href="#">Contact</a></li>
+                   
+                
+            </div>
+            </header>
+            
+            <div class="form-box">
+                <h1 id="title">Sign up</h1>
+                <form>
+                    <div class="input">
+                        <div class="input-field" id="nameField">
+                            <i class="fa-regular fa-user"></i>
+                            <input type="text" placeholder="Name">
+                        </div>
+
+                        <div class="input-field">
+                            <i class="fa-regular fa-envelope"></i>
+                            <input type="email" placeholder="Email">
+                        </div>
+
+                        <div class="input-field">
+                            <i class="fa-solid fa-lock"></i>
+                            <input type="password" placeholder="Password">
+                        </div>
+
+                        <div class="input-field">
+                            <i class="fa-solid fa-phone"></i>
+                            <input type="text"  inputmode="numeric" placeholder="phone number" pattern="[0-11] ">
+                        </div>
+
+                        <p>Lost password<a href="#">Click here</a></p>
+                    </div>
+                    <div class="btn-field">
+                        <button type="button" id="signupBtn">Sign up</button>
+                        <button type="button" id="signinBtn" class="disabled">Sign in</button>
+                    </div>
+                </form>
+            </div>
+            <div class="footer">
+
+            </div>
+
+        </div>
+        <script>
+
+            let signupBtn=document.getElementById("signupBtn");
+            let signinBtn=document.getElementById("signinBtn");
+            let nameField=document.getElementById("nameField");
+            let title=document.getElementById("title");
+
+            signinBtn.onclick=function(){
+                nameField.style.maxHeight="0";
+                title.innerHTML = "Sign in";
+                signupBtn.classList.add("disable");
+                signinBtn.classList.remove("disable");
+            }
+
+            signupBtn.onclick=function(){
+                nameField.style.maxHeight="60px";
+                title.innerHTML = "Sign up";
+                signinBtn.classList.remove("disable");
+                signupBtn.classList.add("disable");
+            }
+
+            // Get the input field
+var input = document.getElementById("myInput");
+
+// Execute a function when the user presses a key on the keyboard
+input.addEventListener("keypress", function(event) {
+  // If the user presses the "Enter" key on the keyboard
+  if (event.key === "Enter") {
+    // Cancel the default action, if needed
+    event.preventDefault();
+    // Trigger the button element with a click
+    document.getElementById("myBtn").click();
+  }
+});
+        </script>
+    </body>
+</html>

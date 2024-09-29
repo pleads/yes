@@ -1,0 +1,179 @@
+*{
+    padding:0;
+    margin:0;
+}
+body{
+    background-color:transparent;
+    width: 100%;
+    height: auto;
+    justify-content: center;
+}
+.build{
+    background: #cfd0ce;
+    position: left;
+    border-radius: 2px;
+    padding: 5px 5px 5px;
+    margin-left: 50px;
+    margin-top: 200px;
+    width: 90%;
+    height: 520px;
+}
+.welcome{
+    float: left;
+    background-image: url(bac.jpg.avif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-left: 47px;
+    width: 46%;
+    margin-top: 30px;
+    box-shadow: 1px 2px 5px;
+    height: 457px;
+}
+
+#logo{
+    float: left;
+    size: 20px;
+    margin-top: 2px;
+    margin-left: 5px;
+    color:#f3f3f3;
+    width: auto;
+
+}
+img{
+  border-radius: 4px;
+  padding: 3px;
+  width: 50px;
+}
+
+#wel{
+    margin-top: 100px;
+    text-align: center;
+    padding: 20px;
+
+}
+h3{
+    font-size: 16px;
+    text-align: center;
+    color: #f3f3f3;
+    font-weight: 100;
+}
+h1{
+    color: #f3f3f3;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 7px;
+    font-size: 44px;
+    font-weight: bold;
+}
+h2{
+    font-size: 15px;
+    text-align: center;
+    color: #f3f3f3;
+    text-align: center;
+    margin-top:10px
+}
+.Form{
+    float: right;
+    position: relative;
+    margin-right: 45.5px;
+    margin-top: 30px;
+    height:auto;
+    width: 46%;
+    box-shadow: 1px 2px 5px;
+    background: #f3f3f3;
+}
+#Login{
+    margin-top: 40px;
+    color: #1111c9;
+    text-align: center;
+    padding: 5px;
+
+}
+.details{
+    margin-top: 10px;
+    padding: 10px;
+    margin-left: 5px;
+}
+h4{
+    font-size: 24px;
+}
+h5{
+    text-align: center;
+    color: #808080;
+}
+input[type=text] {
+    width: 70%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    margin-left: 20px;
+    box-sizing: border-box;
+    background-image: url('mai.png');
+    background-size: 30px;
+    background-position: 5px 5px; 
+     background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+}
+
+  input[type=password] {
+    width: 70%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    margin-left: 20px;
+    box-sizing: border-box;
+    background-image: url('passw.png');
+    background-size: 30px;
+    background-position: 5px 5px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+  }
+  input[type=password]:focus {
+    background-color:;
+  }
+#link{
+    float:right;
+    margin-right: 20px;
+    margin-top: 10px;
+}
+#link:hover{
+    color: grey;
+}
+.button {
+    width: 65%;
+    padding:  15px 32px;
+    font-size: 1rem;
+    padding: 1rem 2rem;
+    margin: 8px 0;
+    border-radius: 20px;
+    background: #0000ff;
+    color: #f3f3f3;
+    text-align: center;
+    margin-left: 45px;
+    margin-top: 20px;
+    outline: none;
+    cursor: pointer;
+    font-weight: bold;
+    transition-duration: 0.4s;
+    display: inline-block;
+
+}
+button{
+-webkit-appearance: none;
+-moz-appearance: none;
+-ms-progress-appearance: none;
+appearance: none;
+box-shadow: none;
+
+border::0! important;
+background-image: #5c665c;
+}
+
+button::-ms-expand{
+        display: none;
+}
+.form__input:focus{
+    border-color:none;
+}
+#rem{
+    padding: 5px;
+    margin-left: 10px;
+    margin-top: 10px;
+}

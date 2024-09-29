@@ -5,7 +5,7 @@
     box-sizing: border-box;
 }
 body{
-    background: url('images/desert.jpg');
+    background: url('/images/desert.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     justify-content: space-between;
@@ -22,13 +22,14 @@ body{
     position: relative;
     justify-content: space-between;
     background: transparent;
-    border: 1px solid #fbf9f9;
+    border: 1px solid transparent;
     margin: auto;
     top: 80px;
     text-align: center;
     width: 500px;
     height: 600px;
     padding: 20px 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.8);
     
 }
 h2{
@@ -82,7 +83,7 @@ h2{
     justify-content: space-between;
     display: flex;
     color: #ffff;
-    margin: -10px 0 15px;
+    margin: -10px 0 20px;
     top: 20px;
     font-size: .9em;
    
